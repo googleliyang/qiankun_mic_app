@@ -26,17 +26,14 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ### TODO LIST
 
-- [ ] 1. 登录成功后，跳转到重定向过来页 
-- [ ] 2. 网路拦截检测登录过期
-- [ ] 3. 登录 & 主应用布局
-- [ ] 4. UI Library
+- [ ] 1. redirect to original page when login success
+- [ ] 2. http interception -
+- [x] 3. login & base layout 
+- [x] 4. UI Library
 - [ ] 5. provide standard DEMO Sub - Page
-- [ ] 6. 父子应用分工
-- [ ] 7. 嵌入子应用，基于旧改造
-- [ ] 8. 路由拦截
-- [ ] 9. 常量
-- [ ] 10. DEBUG - center server load sub child
-- [ ] 11. 加载子应用进度展示
+- [ ] 6. Route interception
+- [ ] 7. DEBUG - center server load sub child
+- [ ] 8. display progress bar when sub-app is loading 
 
 
 

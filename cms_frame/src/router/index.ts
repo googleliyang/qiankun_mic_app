@@ -18,25 +18,25 @@ const routes: Array<RouteConfig> = [
     name: 'AuthLayout',
     component: AuthLayout,
     redirect: '/subapp/',
-    meta: { title: '管理系统' },
+    meta: { title: 'Cms' },
     children: [
       {
         path: '*',
         name: 'user',
         component: () => import('@/views/auth/Login.vue'),
         meta: {
-          title: '登录',
+          title: 'Login',
           keepAlive: true
         }
       }
     ]
   },
   {
-    path: '/subapp',
+    path: ROUTE.SUB_PREFIX,
     name: 'MainLayout',
     component: MainLayout,
     redirect: '/',
-    meta: { title: '管理系统' },
+    meta: { title: 'Cms' },
     children: [
       {
         // match all sub app
