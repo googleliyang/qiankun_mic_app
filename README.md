@@ -1,6 +1,6 @@
 
-### Info
-A basic project of Qiankun 2.0 which integrated with typescript 
+
+> A basic project of Qiankun 2.0 which integrated with typescript 
 
 ## main app
 ```
@@ -92,7 +92,7 @@ Running the examples:
 
 ```bash
 $ cd cms_frame && npm install && npm run dev
-$  cd mic_child && npm install && npm run dev
+$ cd mic_child && npm install && npm run dev
 ```
 
 ## FAQ
