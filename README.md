@@ -1,6 +1,6 @@
 
 
-> A basic project of Qiankun 2.0 which integrated with typescript 
+> A basic project of Qiankun 2.0 which integrated with Vue.js、typescript 、elementUI
 
 ## main app
 ```
