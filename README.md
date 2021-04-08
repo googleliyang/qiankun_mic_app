@@ -3,6 +3,7 @@
 A basic project of Qiankun 2.0 which integrated with typescript 
 
 ## main app
+```
 ├── README.md
 ├── babel.config.js
 ├── package-lock.json
@@ -44,8 +45,11 @@ A basic project of Qiankun 2.0 which integrated with typescript
 │       └── auth
 ├── tsconfig.json
 └── vue.config.js
+```
 
 ### child app
+
+```
 ├── README.md
 ├── babel.config.js
 ├── package-lock.json
@@ -81,6 +85,7 @@ A basic project of Qiankun 2.0 which integrated with typescript
 │       └── Home.vue
 ├── tsconfig.json
 └── vue.config.js
+```
 
 ## Examples
 Running the examples:
